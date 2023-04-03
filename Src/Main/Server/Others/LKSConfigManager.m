@@ -1,5 +1,3 @@
-#ifdef SHOULD_COMPILE_LOOKIN_SERVER
-
 //
 //  LKSConfigManager.m
 //  LookinServer
@@ -191,5 +189,3 @@
 }
 
 @end
-
-#endif /* SHOULD_COMPILE_LOOKIN_SERVER */
