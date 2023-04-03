@@ -40,7 +40,7 @@
     id classList = (__bridge id)(arrayValue);
     
     if ([classList isKindOfClass:[NSArray class]]) {
-        NSArray *validClassList = [((NSArray *)classList) lookin_filter:^BOOL(id obj) {
+        NSMutableArray *validClassList = [((NSMutableArray *)classList) lookin_filter:^BOOL(id obj) {
             return [obj isKindOfClass:[NSString class]];
         }];
         return [validClassList copy];
